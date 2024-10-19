@@ -1,0 +1,12 @@
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\bin\Debug\Taller 2MP.exe.config
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\bin\Debug\Taller 2MP.exe
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\bin\Debug\Taller 2MP.pdb
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\bin\Debug\Taller 2MP.xml
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.vbproj.AssemblyReference.cache
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller_2MP.Resources.resources
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.vbproj.GenerateResource.cache
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.vbproj.CoreCompileInputs.cache
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.exe
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.xml
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller 2MP.pdb
+C:\Users\andres\Documents\GitHub\Simulacion\Taller 2MP\Taller 2MP\obj\Debug\Taller_2MP.Form1.resources
