@@ -25,73 +25,69 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Torre = New System.Windows.Forms.PictureBox()
         Me.Guante = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Suelo = New System.Windows.Forms.PictureBox()
+        CType(Me.Torre, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guante, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Suelo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Timer1
         '
         '
-        'PictureBox1
+        'Torre
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(635, 385)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(297, 338)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.Torre.Image = CType(resources.GetObject("Torre.Image"), System.Drawing.Image)
+        Me.Torre.Location = New System.Drawing.Point(468, 438)
+        Me.Torre.Name = "Torre"
+        Me.Torre.Size = New System.Drawing.Size(95, 126)
+        Me.Torre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Torre.TabIndex = 0
+        Me.Torre.TabStop = False
         '
         'Guante
         '
         Me.Guante.AccessibleName = ""
         Me.Guante.Image = CType(resources.GetObject("Guante.Image"), System.Drawing.Image)
-        Me.Guante.Location = New System.Drawing.Point(1052, 418)
-        Me.Guante.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Guante.Location = New System.Drawing.Point(795, 451)
         Me.Guante.Name = "Guante"
-        Me.Guante.Size = New System.Drawing.Size(100, 100)
+        Me.Guante.Size = New System.Drawing.Size(75, 81)
         Me.Guante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guante.TabIndex = 1
         Me.Guante.TabStop = False
         '
-        'PictureBox3
+        'Suelo
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(-20, 719)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(1575, 62)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
+        Me.Suelo.Location = New System.Drawing.Point(-38, 583)
+        Me.Suelo.Name = "Suelo"
+        Me.Suelo.Size = New System.Drawing.Size(1181, 50)
+        Me.Suelo.TabIndex = 2
+        Me.Suelo.TabStop = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1359, 774)
-        Me.Controls.Add(Me.PictureBox3)
+        Me.ClientSize = New System.Drawing.Size(988, 629)
+        Me.Controls.Add(Me.Suelo)
         Me.Controls.Add(Me.Guante)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Torre)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Torre, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guante, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Suelo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Torre As PictureBox
     Friend WithEvents Guante As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Suelo As PictureBox
 End Class
